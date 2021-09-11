@@ -1,5 +1,4 @@
-package com.example.myapplicatio.API
-
+package com.example.myapplicatio.api
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -9,7 +8,8 @@ object ApiClient {
         .baseUrl("http://13.244.243.129")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-    fun <T> buildApiClient(apiInterface: Class<T>): T {
+    fun <T>buildApiClient(apiInterface: Class<T>): T {
         return retrofit.create(apiInterface)
     }
 }
+

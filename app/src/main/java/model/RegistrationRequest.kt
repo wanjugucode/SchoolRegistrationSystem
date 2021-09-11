@@ -1,4 +1,4 @@
-package com.example.myapplicatio.models
+package model
 
 import com.google.gson.annotations.SerializedName
 
@@ -7,6 +7,6 @@ data class RegistrationRequest(
     @SerializedName("phone_number") var phoneNumber: String,
     var nationality: String,
     @SerializedName("date_of_birth") var dateOfBirth: String,
-    var email: String
+    var email: String,
     var password: String,
 )
