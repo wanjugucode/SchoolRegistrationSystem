@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ui.MainActivity">
+    tools:context="com.example.myapplicatio.MainActivity">
 
     <Button
         android:id="@+id/btnRegister"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toTopOf="@+id/tilDob"
         app:srcCompat="@drawable/ic_baseline_calendar_today_24" />
 
-/
+    /
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"

@@ -39,7 +39,7 @@ class loginActivity : AppCompatActivity() {
             Toast.makeText(baseContext, error, Toast.LENGTH_LONG).show()
         })
         binding.btnLoginPrevious.setOnClickListener {
-            val intent=Intent(baseContext, MainActivity::class.java)
+            val intent=Intent(baseContext,LoginViewModel ::class.java)
             startActivity(intent)
         }
     }
