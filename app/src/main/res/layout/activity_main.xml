@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
-                android:hint="Name" />
+                android:hint="@string/name" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <ImageView
@@ -38,7 +38,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tilName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tilName"
-            app:srcCompat="@drawable/ic_baseline_person_pin_24" />
+            />
 
         <ImageView
             android:id="@+id/imageView"
@@ -48,7 +48,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textInputLayout2"
-            app:srcCompat="@drawable/ic_baseline_calendar_today_24" />
+            />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout2"
@@ -66,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
-                android:hint="DOB"
+                android:hint="@string/dob"
                 android:inputType="date" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,7 +78,6 @@
             app:layout_constraintBottom_toBottomOf="@+id/spNationality"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/spNationality"
-            app:srcCompat="@drawable/ic_baseline_emoji_flags_24"
             />
 
         <Spinner
@@ -100,7 +99,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textInputLayout3"
-            app:srcCompat="@drawable/ic_baseline_email_24" />
+            />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout3"
@@ -120,7 +119,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:inputType="textEmailAddress"
-                android:hint="Email"
+                android:hint="@string/email"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -132,7 +131,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textInputLayout4"
-            app:srcCompat="@drawable/ic_baseline_credit_card_24" />
+            />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout4"
@@ -151,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
-                android:hint="password" />
+                android:hint="@string/password" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <ImageView
@@ -162,7 +161,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textInputLayout5"
-            app:srcCompat="@drawable/ic_baseline_phone_android_24" />
+            />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout5"
@@ -180,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
-                android:hint="Contact" />
+                android:hint="@string/contact" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -188,7 +187,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="REGISTER"
+            android:text="@string/register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
@@ -199,7 +198,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="4dp"
-            android:text="REGISTER HERE"
+            android:text="@string/register_here"
             android:textColor="@color/purple_500"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/tilName"
@@ -213,7 +212,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Already registered ? login "
+            android:text="@string/Login"
             android:textColor="#3F51B5"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
