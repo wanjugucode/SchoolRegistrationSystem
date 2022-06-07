@@ -4,6 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sharon/AndroidStudioProjects/RegistrationApp/app/src/main/res/layout/activity_main.xml" value="0.1578125" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.2265" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/drawable/ic_baseline_phone_android_24.xml" value="0.2585" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/layout/activity_courses.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/layout/course_item_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/layout/fragment_all_courses.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Sharon/AndroidStudioProjects/SchoolRegistrationSystem/app/src/main/res/layout/fragment_my_courses.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/activity_courses.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />

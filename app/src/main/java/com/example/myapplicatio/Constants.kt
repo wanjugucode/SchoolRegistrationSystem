@@ -1,9 +1,11 @@
 package com.example.myapplicatio
 
+
 class Constants {
-    companion object{
-    const val REGISTRATION_PREFS="REGISTRATION_PREFS"
-        const val ACCESS_TOKEN="ACCESS_TOKEN"
-        const val STUDENT_ID="STUDENT_ID"
-        const val EMPTY_STRING="EMPTY_STRING"
-}}
+    companion object {
+        const val SHAREDPREFS = "STUDENT REGISTRATION"
+        const val EMPTYSTRING = ""
+        const val ACCESSTOKEN = "ACCESS_TOKEN"
+        const val STUDENTID = "STUDENT_ID"
+    }
+}
